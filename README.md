@@ -1,4 +1,12 @@
-# Topic3
+# WHO Sample Dataset (Wide Format) - Data Cleaning Prep
+
+This dataset simulates a WHO-style wide-format table containing case counts by country, year, sex, and age group. We will demonstrate how to transform it into tidy format using pandas.
+
+---
+
+## 📦 Step 1: Define the Sample Data
+
+```python
 import pandas as pd
 
 data = {
